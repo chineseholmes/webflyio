@@ -6,5 +6,5 @@ COPY run.sh /app/run.sh
 RUN chmod +x /app/web.js && \
     chmod +x /app/alist && \
     chmod +x /app/run.sh 
-EXPOSE 8080
+EXPOSE 80
 ENTRYPOINT /app/run.sh
